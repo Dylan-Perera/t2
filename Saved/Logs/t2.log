@@ -5225,3 +5225,367 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.07-06.49.16:180][600]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1
 [2022.11.07-06.49.16:180][600]LogSavePackage: Moving 'F:/projects/_LETS SEE/t2/Saved/BP_ThirdPersonCharacter_Auto18CF0005B43109079EBFE29A9BD53B8D7.tmp' to 'F:/projects/_LETS SEE/t2/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1.uasset'
 [2022.11.07-06.49.16:181][600]LogFileHelpers: Auto-saving content packages took 0.103
+[2022.11.07-06.50.29:033][684]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequin_UE4/Animations/Jog_Fwd.Jog_Fwd
+[2022.11.07-06.50.29:033][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.11.07-06.50.32:233][684]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.07-06.50.32:291][684]LogUObjectGlobals: Force Deleting 21 Package(s):
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/Mannequin_UE4/Materials/Layers/ML_Latex_Black.ML_Latex_Black
+	Asset Type: MaterialFunction
+	Asset Name: /Game/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige.ML_ShinyPlastic_Beige
+	Asset Type: MaterialFunction
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.T_UELogo_Mask
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige_Logo.ML_ShinyPlastic_Beige_Logo
+	Asset Type: MaterialFunction
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.T_ML_Aluminum01
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.T_ML_Aluminum01_N
+	Asset Type: Texture2D
+	Asset Name: /Game/Characters/Mannequin_UE4/Materials/Layers/ML_SoftMetal.ML_SoftMetal
+	Asset Type: MaterialFunction
+	Asset Name: /Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.T_UE4_Mannequin__normals
+	Asset Type: Texture2D
+[2022.11.07-06.50.32:589][684]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2D9905F849F9A95D1C13991233870F6B126FD69E), compiling. 
+[2022.11.07-06.50.32:590][684]LogMaterial: Warning: [AssetLog] F:\projects\_LETS SEE\t2\Content\Characters\Mannequin_UE4\Materials\Layers\ML_Latex_Black.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.11.07-06.50.32:601][684]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 678E3534E0D6F53734BB757B36F761C56C9F06EA), compiling. 
+[2022.11.07-06.50.32:614][684]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 241FFF0577596D7AEE86888AD263BE1557C5162B), compiling. 
+[2022.11.07-06.50.32:615][684]LogMaterial: Warning: [AssetLog] F:\projects\_LETS SEE\t2\Content\Characters\Mannequin_UE4\Materials\Layers\ML_SoftMetal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.11.07-06.50.32:632][684]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.11.07-06.50.32:634][684]LogMaterial: Warning: [AssetLog] F:\projects\_LETS SEE\t2\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.11.07-06.50.32:640][684]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.11.07-06.50.32:642][684]LogMaterial: Warning: [AssetLog] F:\projects\_LETS SEE\t2\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.11.07-06.50.32:648][684]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.11.07-06.50.32:650][684]LogMaterial: Warning: [AssetLog] F:\projects\_LETS SEE\t2\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.11.07-06.50.32:656][684]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.11.07-06.50.32:658][684]LogMaterial: Warning: [AssetLog] F:\projects\_LETS SEE\t2\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.11.07-06.50.32:665][684]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.11.07-06.50.32:667][684]LogMaterial: Warning: [AssetLog] F:\projects\_LETS SEE\t2\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.11.07-06.50.32:673][684]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.11.07-06.50.32:675][684]LogMaterial: Warning: [AssetLog] F:\projects\_LETS SEE\t2\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.11.07-06.50.32:681][684]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.11.07-06.50.32:683][684]LogMaterial: Warning: [AssetLog] F:\projects\_LETS SEE\t2\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.11.07-06.50.32:689][684]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.11.07-06.50.32:692][684]LogMaterial: Warning: [AssetLog] F:\projects\_LETS SEE\t2\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.11.07-06.50.32:698][684]LogMaterial: Display: Missing cached shadermap for M_MannequinUE4_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5C30DF9BBA0BC3EC8F5C9CFA037436B8956ECA0E), compiling. 
+[2022.11.07-06.50.32:700][684]LogMaterial: Warning: [AssetLog] F:\projects\_LETS SEE\t2\Content\Characters\Mannequin_UE4\Materials\M_MannequinUE4_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2022.11.07-06.50.32:725][684]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2022.11.07-06.50.32:766][684]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2022.11.07-06.50.32:811][684]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2022.11.07-06.50.32:849][684]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2022.11.07-06.50.32:894][684]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2022.11.07-06.50.32:935][684]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2022.11.07-06.50.33:279][684]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2022.11.07-06.50.36:283][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.11.07-06.50.36:312][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.11.07-06.50.36:341][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.11.07-06.51.15:935][434]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.07-06.51.15:942][434]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.07-06.51.15:942][434]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.07-06.51.15:942][434]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.07-06.51.15:942][434]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.07-06.51.15:942][434]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.07-06.51.15:942][434]LogWorldPartition: Display: GetPartitionedActors took 63 us
+[2022.11.07-06.51.15:942][434]LogWorldPartition: Display: GenerateStreaming took 311 us
+[2022.11.07-06.51.15:942][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.07-06.51.15:943][434]PIE: New page: PIE session: ThirdPersonMap (8/11/2022, 8:51:15 am)
+[2022.11.07-06.51.15:972][434]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.07-06.51.15:976][434]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.07-06.51.15:976][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003896s)
+[2022.11.07-06.51.15:976][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003987s)
+[2022.11.07-06.51.15:976][434]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.07-06.51.15:977][434]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.07-06.51.15:977][434]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.07-06.51.15:977][434]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.07-06.51.15:979][434]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.07-06.51.15:979][434]LogPlayLevel: PIE: World Init took: (0.002799s)
+[2022.11.07-06.51.16:009][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.11.07-06.51.16:012][434]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.11.07-06.51.16:012][434]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.07-06.51.16:012][434]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.07-06.51.16:012][434]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.07-06.51.16:012][434]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.07-06.51.16:012][434]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.07-06.51.16:012][434]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.07-06.51.16:012][434]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.07-06.51.16:012][434]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.07-06.51.16:013][434]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.07-06.51.16:013][434]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.07-06.51.16:013][434]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.07-06.51.16:015][434]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.07-06.51.16:054][434]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Razer Kraken TE - Chat)
+[2022.11.07-06.51.16:054][434]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.07-06.51.16:055][434]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.07-06.51.16:055][434]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.07-06.51.16:055][434]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2022.11.07-06.51.16:055][434]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2022.11.07-06.51.16:057][434]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2022.11.07-06.51.16:057][434]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2022.11.07-06.51.16:057][434]LogInit: FAudioDevice initialized.
+[2022.11.07-06.51.16:057][434]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2022.11.07-06.51.16:071][434]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.07-06.51.16:071][434]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.11.07-19.51.16
+[2022.11.07-06.51.16:071][434]LogWorld: Bringing up level for play took: 0.000627
+[2022.11.07-06.51.16:073][434]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2022.11.07-06.51.16:076][434]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=400.000
+[2022.11.07-06.51.16:076][434]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.07-06.51.16:076][434]PIE: Server logged in
+[2022.11.07-06.51.16:077][434]PIE: Play in editor total start time 0.136 seconds.
+[2022.11.07-06.51.18:252][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.07-06.51.18:252][597]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.07-06.51.18:253][597]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.07-06.51.18:253][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.07-06.51.18:263][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.07-06.51.18:267][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.07-06.51.18:295][597]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.07-06.51.18:296][597]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.11.07-06.51.18:298][597]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.11.07-06.51.18:301][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.07-06.51.18:304][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.11.07-06.51.18:323][598]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.11.07-06.51.46:047][889]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.07-06.51.46:053][889]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.07-06.51.46:053][889]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.07-06.51.46:053][889]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.07-06.51.46:053][889]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.07-06.51.46:053][889]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.07-06.51.46:053][889]LogWorldPartition: Display: GetPartitionedActors took 56 us
+[2022.11.07-06.51.46:053][889]LogWorldPartition: Display: GenerateStreaming took 271 us
+[2022.11.07-06.51.46:054][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.07-06.51.46:054][889]PIE: New page: PIE session: ThirdPersonMap (8/11/2022, 8:51:46 am)
+[2022.11.07-06.51.46:054][889]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.07-06.51.46:058][889]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.07-06.51.46:058][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004191s)
+[2022.11.07-06.51.46:058][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004279s)
+[2022.11.07-06.51.46:058][889]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.07-06.51.46:059][889]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.07-06.51.46:059][889]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.07-06.51.46:059][889]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.07-06.51.46:060][889]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.07-06.51.46:061][889]LogPlayLevel: PIE: World Init took: (0.002421s)
+[2022.11.07-06.51.46:087][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.11.07-06.51.46:089][889]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.11.07-06.51.46:089][889]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.07-06.51.46:089][889]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.07-06.51.46:089][889]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.07-06.51.46:089][889]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.07-06.51.46:089][889]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.07-06.51.46:089][889]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.07-06.51.46:089][889]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.07-06.51.46:089][889]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.07-06.51.46:090][889]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.07-06.51.46:090][889]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.07-06.51.46:090][889]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.07-06.51.46:092][889]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.07-06.51.46:128][889]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Razer Kraken TE - Chat)
+[2022.11.07-06.51.46:129][889]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.07-06.51.46:129][889]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.07-06.51.46:129][889]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.07-06.51.46:130][889]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2022.11.07-06.51.46:130][889]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2022.11.07-06.51.46:132][889]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2022.11.07-06.51.46:132][889]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2022.11.07-06.51.46:132][889]LogInit: FAudioDevice initialized.
+[2022.11.07-06.51.46:132][889]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2022.11.07-06.51.46:148][889]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.07-06.51.46:149][889]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.11.07-19.51.46
+[2022.11.07-06.51.46:149][889]LogWorld: Bringing up level for play took: 0.000628
+[2022.11.07-06.51.46:151][889]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2022.11.07-06.51.46:154][889]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=400.000
+[2022.11.07-06.51.46:154][889]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.07-06.51.46:154][889]PIE: Server logged in
+[2022.11.07-06.51.46:155][889]PIE: Play in editor total start time 0.103 seconds.
+[2022.11.07-06.51.47:473][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.07-06.51.47:473][980]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.07-06.51.47:473][980]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.07-06.51.47:474][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.07-06.51.47:488][980]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.07-06.51.47:493][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.07-06.51.47:520][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.07-06.51.47:520][980]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.11.07-06.51.47:522][980]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.11.07-06.51.47:528][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.11.07-06.51.47:546][981]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.11.07-06.52.39:121][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.11.07-06.52.46:186][272]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.07-06.52.47:617][272]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Characters/Mannequins/Meshes/SKM_Manny.SKM_Manny
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/Characters/Mannequins/Meshes/SKM_Quinn.SKM_Quinn
+	Asset Type: SkeletalMesh
+[2022.11.07-06.52.48:644][272]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.11.07-06.52.48:677][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.11.07-06.52.48:706][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.11.07-06.52.50:983][451]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.07-06.52.50:989][451]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.07-06.52.50:989][451]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.07-06.52.50:989][451]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.07-06.52.50:989][451]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.07-06.52.50:989][451]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.07-06.52.50:989][451]LogWorldPartition: Display: GetPartitionedActors took 62 us
+[2022.11.07-06.52.50:989][451]LogWorldPartition: Display: GenerateStreaming took 332 us
+[2022.11.07-06.52.50:990][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.07-06.52.50:990][451]PIE: New page: PIE session: ThirdPersonMap (8/11/2022, 8:52:50 am)
+[2022.11.07-06.52.50:990][451]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.07-06.52.50:994][451]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.07-06.52.50:994][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004553s)
+[2022.11.07-06.52.50:994][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004636s)
+[2022.11.07-06.52.50:995][451]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.07-06.52.50:995][451]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.07-06.52.50:996][451]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.07-06.52.50:996][451]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.07-06.52.50:997][451]LogWorldPartition: Display: WorldPartition initialize took 961 us
+[2022.11.07-06.52.50:997][451]LogPlayLevel: PIE: World Init took: (0.002167s)
+[2022.11.07-06.52.51:024][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.11.07-06.52.51:025][451]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.11.07-06.52.51:025][451]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.07-06.52.51:025][451]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.07-06.52.51:025][451]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.07-06.52.51:025][451]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.07-06.52.51:025][451]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.07-06.52.51:025][451]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.07-06.52.51:025][451]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.07-06.52.51:025][451]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.07-06.52.51:026][451]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.07-06.52.51:026][451]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.07-06.52.51:026][451]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.07-06.52.51:027][451]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.07-06.52.51:063][451]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Razer Kraken TE - Chat)
+[2022.11.07-06.52.51:063][451]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.07-06.52.51:063][451]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.07-06.52.51:063][451]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.07-06.52.51:064][451]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2022.11.07-06.52.51:064][451]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2022.11.07-06.52.51:066][451]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2022.11.07-06.52.51:066][451]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2022.11.07-06.52.51:066][451]LogInit: FAudioDevice initialized.
+[2022.11.07-06.52.51:066][451]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2022.11.07-06.52.51:084][451]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.07-06.52.51:084][451]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.11.07-19.52.51
+[2022.11.07-06.52.51:084][451]LogWorld: Bringing up level for play took: 0.000644
+[2022.11.07-06.52.51:086][451]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2022.11.07-06.52.51:089][451]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=400.000
+[2022.11.07-06.52.51:089][451]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.07-06.52.51:089][451]PIE: Server logged in
+[2022.11.07-06.52.51:090][451]PIE: Play in editor total start time 0.102 seconds.
+[2022.11.07-06.52.52:343][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.07-06.52.52:343][538]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.07-06.52.52:343][538]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.07-06.52.52:344][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.07-06.52.52:358][538]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.07-06.52.52:363][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.07-06.52.52:389][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.07-06.52.52:389][538]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.11.07-06.52.52:391][538]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.11.07-06.52.52:396][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.11.07-06.52.52:423][540]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.11.07-06.52.56:196][841]LogStatusBar: Looking status bar with open content browser drawer...
+[2022.11.07-06.52.56:196][841]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2022.11.07-06.52.56:211][841]LogViewport: Scene viewport resized to 1526x580, mode Windowed.
+[2022.11.07-06.53.15:387][301]LogViewport: Scene viewport resized to 1526x555, mode Windowed.
+[2022.11.07-06.53.15:443][303]LogViewport: Scene viewport resized to 1526x414, mode Windowed.
+[2022.11.07-06.53.15:493][305]LogViewport: Scene viewport resized to 1526x374, mode Windowed.
+[2022.11.07-06.53.15:532][306]LogViewport: Scene viewport resized to 1526x345, mode Windowed.
+[2022.11.07-06.53.15:576][307]LogViewport: Scene viewport resized to 1526x330, mode Windowed.
+[2022.11.07-06.53.15:622][308]LogViewport: Scene viewport resized to 1526x328, mode Windowed.
+[2022.11.07-06.53.15:751][320]LogViewport: Scene viewport resized to 1526x326, mode Windowed.
+[2022.11.07-06.53.26:298][334]LogLinker: Warning: Failed to load '/Game/Characters/Mannequins/Meshes/SKM_Manny': Can't find file.
+[2022.11.07-06.53.26:299][334]LogLinker: Warning: Failed to load '/Game/Characters/Mannequins/Meshes/SKM_Manny': Can't find file.
+[2022.11.07-06.53.26:299][334]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Characters/Mannequins/Meshes/SKM_Manny.SKM_Manny'
+[2022.11.07-06.53.26:356][336]LogLinker: Warning: Failed to load '/Game/Characters/Mannequins/Meshes/SKM_Quinn': Can't find file.
+[2022.11.07-06.53.26:356][336]LogLinker: Warning: Failed to load '/Game/Characters/Mannequins/Meshes/SKM_Quinn': Can't find file.
+[2022.11.07-06.53.26:357][336]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Characters/Mannequins/Meshes/SKM_Quinn.SKM_Quinn'
